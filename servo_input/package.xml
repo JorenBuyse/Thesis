@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+	<name>servo_input</name>
+	<version>0.1.0</version>
+	<description>Terminal input to put on rostopic ee_commands</description>
+
+	<maintainer email="joren.buyse@ugent.be">Joren Buyse</maintainer>
+	<license>BSD</license>
+	<author email="joren.buyse@ugent.be">Joren Buyse</author>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>message_generation</build_depend>
+	<build_depend>rospy</build_depend>
+	<run_depend>rospy</run_depend>
+
+</package>

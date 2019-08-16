@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+	<name>end_effector</name>
+	<version>0.1.0</version>
+	<description>UDP setup to let Baxter communicate with custom end-effector</description>
+
+	<maintainer email="joren.buyse@ugent.be">Joren Buyse</maintainer>
+	<license>BSD</license>
+	<author email="joren.buyse@ugent.be">Joren Buyse</author>
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>message_generation</build_depend>
+	<build_depend>rospy</build_depend>
+	<run_depend>rospy</run_depend>
+
+</package>
